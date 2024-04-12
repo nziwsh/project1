@@ -1,0 +1,42 @@
+.wrraper{
+    width: 100%;
+    
+}
+ .wrraper .menu{
+    width: 100%;
+  
+    background: #000;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+ }
+ .wrraper .menu nav{
+    width:  inherit;
+    height: inherit;
+ }
+  .wrraper .menu nav .menu_item{
+    
+    display: flex;
+    flex-flow: column wrap;
+
+   justify-content: center;
+   align-items: center;
+    column-gap: 30px;
+  }
+  .wrraper .menu nav .menu_item .link{
+text-decoration: none;
+color: aliceblue;
+line-height: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+transition: 300ms;
+border-radius: 10px;
+
+
+  }
+  .wrraper .menu nav .menu_item .link:hover{
+    background: lightslategray;
+  }
